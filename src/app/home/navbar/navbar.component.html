@@ -1,0 +1,56 @@
+<div
+  class="flex flex-row justify-center items-center right-0 md:right-auto unselectable z-40"
+  [ngClass]="{
+    ' fixed top-0 ': scrollService.headerFixed.value,
+    ' absolute ': !scrollService.headerFixed.value
+  }"
+>
+  <button
+    class="py-3 bg-secondary md:hidden rounded-l-full flex justify-center items-center focus:outline-none z-40"
+    [ngClass]="{ ' pr-2 pl-2 ': navbarOpen, ' pr-1 pl-3 ': !navbarOpen }"
+    style="height: fit-content; transform: translateX(1px);"
+    (click)="navbarOpen = !navbarOpen"
+  >
+    <i
+      class="arrow left transition-transform duration-300 delay-200"
+      [ngClass]="{ ' right ': navbarOpen }"
+    ></i>
+  </button>
+  <div
+    class="navbar h-screen z-40 bg-primary flex flex-col md:flex-row flex-nowrap justify-center items-center"
+    [ngClass]="{ ' w-fit ': navbarOpen }"
+  >
+    <button
+      *ngFor="let link of links"
+      class="py-2 px-4 focus:outline-none"
+      [ngClass]="{
+        ' text-white ': !link.selected,
+        ' text-xl color-secondary ': link.selected,
+        ' hidden md:block ': !navbarOpen
+      }"
+      (click)="scrollService.scrollToSection(link.id)"
+    >
+      {{ link.text }}
+    </button>
+  </div>
+</div>
+
+<div
+  *ngIf="navbarOpen"
+  (click)="navbarOpen = false"
+  class="w-screen h-screen left-0 z-30 bg-black bg-opacity-50 md:hidden"
+  [ngClass]="{
+    ' fixed top-0 ': scrollService.headerFixed.value,
+    ' absolute ': !scrollService.headerFixed.value
+  }"
+></div>
+
+<div
+  class="md:hidden w-screen bg-primary flex justify-center items-center h-8 color-secondary"
+  [ngClass]="{
+    ' fixed top-0 ': scrollService.headerFixed.value,
+    ' absolute ': !scrollService.headerFixed.value
+  }"
+>
+  {{ selectedLink }}
+</div>

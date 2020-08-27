@@ -1,0 +1,70 @@
+<app-navbar></app-navbar>
+<div
+  class="container sm:mx-auto px-4 xl:px-16"
+  style="scroll-snap-type: y mandatory"
+>
+  <div
+    id="section-1"
+    class="md:pt-24 pt-16 pb-8 h-screen flex flex-col md:flex-row justify-center items-center box-border"
+    style="scroll-snap-align: start"
+  >
+    <img
+      class="w-2/3 md:w-1/2 rounded-full my-8 md:p-8 md:m-0"
+      src="/assets/images/profile-picture.jpg"
+      i18n-alt
+      alt="Picture of me"
+    />
+    <div class="my-8 text-gray-900 md:w-1/2 md:px-8 md:m-0">
+      <div class="text-4xl" i18n>About</div>
+      <hr class="title-line" />
+      <p i18n>
+        I am a third grade computer engineering student at Istanbul Technical
+        University. I am trying be a lifelong learner and do what I learn.
+      </p>
+      <br />
+      <p i18n>Currently doing web development.</p>
+    </div>
+  </div>
+  <div
+    id="section-2"
+    class="md:pt-24 py-8 min-h-screen flex flex-col md:flex-row md:flex-wrap box-border"
+    style="scroll-snap-align: start"
+  >
+    <div class="mt-8 md:w-1/2 md:px-8">
+      <div class="text-4xl">Full stack</div>
+      <hr class="title-line" />
+      <app-skill-bar [percentage]="85">HTML</app-skill-bar>
+      <app-skill-bar [percentage]="80">CSS</app-skill-bar>
+      <app-skill-bar [percentage]="75">Javascript</app-skill-bar>
+      <app-skill-bar [percentage]="65">Angular</app-skill-bar>
+      <app-skill-bar [percentage]="75">Node.js</app-skill-bar>
+      <app-skill-bar [percentage]="30">SQL</app-skill-bar>
+      <app-skill-bar [percentage]="40">NoSQL</app-skill-bar>
+    </div>
+    <div class="md:w-1/2 md:px-8">
+      <div class="mt-8">
+        <div class="text-4xl" i18n>More coding</div>
+        <hr class="title-line" />
+        <app-skill-bar [percentage]="75">C</app-skill-bar>
+        <app-skill-bar [percentage]="80">C++</app-skill-bar>
+        <app-skill-bar [percentage]="55">Python</app-skill-bar>
+      </div>
+      <div class="mt-8">
+        <div class="text-4xl" i18n>Languages</div>
+        <hr class="title-line" />
+        <app-skill-bar [percentage]="90" i18n>Turkish</app-skill-bar>
+        <app-skill-bar [percentage]="85" i18n>English</app-skill-bar>
+        <app-skill-bar [percentage]="60" i18n>Spanish</app-skill-bar>
+        <app-skill-bar [percentage]="25" i18n>French</app-skill-bar>
+      </div>
+    </div>
+  </div>
+  <div
+    id="section-3"
+    class="md:pt-16 h-screen bg-teal-200"
+    style="scroll-snap-align: start"
+  >
+    Some fancy info about me too too
+    <button class="btn">Hey button</button>
+  </div>
+</div>

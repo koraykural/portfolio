@@ -1,0 +1,16 @@
+.navbar {
+  transition: width 0.4s;
+  width: 1px;
+}
+.w-fit {
+  width: 250px;
+}
+.navbar button {
+  transition: color 0.4s, font-size 0.4s;
+}
+@media (min-width: 768px) {
+  .navbar {
+    height: 60px !important;
+    width: 100vw !important;
+  }
+}

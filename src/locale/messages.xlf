@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="93e7d83cffcd6bb14825368103270e0d8d47f71c" datatype="html">
+        <source>Know more about me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d05c8364f2d6988ff97cea1bb7a81f683e38e2f1" datatype="html">
+        <source>Picture of me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9e566e29ae586016526522e5e754fb15ee8e33c" datatype="html">
+        <source>
+        I am a third grade computer engineering student at Istanbul Technical
+        University. I am trying be a lifelong learner and do what I learn.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e231cbee691d2691fb2a0c9ad6143072582eceb8" datatype="html">
+        <source>Currently doing web development.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11e587391fcee16c374368795c02296500768271" datatype="html">
+        <source>More coding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a82d78d2b0ab3406888cd5e4a9af533c16807da3" datatype="html">
+        <source>Languages</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="498095dc81b4ee354d8b83bcec0a1195fa44395b" datatype="html">
+        <source>Turkish</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b2fa65763b744291e832a3c5fa0ce8641da2911" datatype="html">
+        <source>Spanish</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
+        <source>French</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

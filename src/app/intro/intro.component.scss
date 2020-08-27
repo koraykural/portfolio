@@ -1,0 +1,22 @@
+.bottom-button {
+  bottom: 30px;
+  left: 50%;
+  transition: transform 0.8s, opacity 1s;
+  transform: translateX(-50%);
+}
+.bottom-button:hover {
+  transform: scale(1.1) translateX(-45%) perspective(1px) translateZ(0);
+}
+.bottom-button.hover {
+  transform: scale(1.1) translateX(-45%) perspective(1px) translateZ(0);
+}
+
+.gradient-background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(#5e2883, #2f2039);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 7s;
+}

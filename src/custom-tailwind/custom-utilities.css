@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Atami Regular";
+  src: url("/assets/font/Atami-Regular.woff") format("woff2");
+}
+
+html body {
+  font-family: "Atami Regular";
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.color-primary {
+  color: #2f2039;
+}
+.color-primary-light {
+  color: rgb(94, 40, 131);
+}
+.color-secondary {
+  color: #ff8325;
+}
+.bg-primary {
+  background-color: #2f2039;
+}
+.bg-primary-light {
+  background-color: rgb(94, 40, 131);
+}
+.bg-secondary {
+  background-color: #ff8325;
+}
+.border-primary {
+  border-color: #2f2039;
+}
+.border-primary-light {
+  border-color: rgb(94, 40, 131);
+}
+.border-secondary {
+  border-color: #ff8325;
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.rotate-270 {
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}

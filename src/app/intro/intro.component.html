@@ -1,0 +1,44 @@
+<button
+  class="absolute flex flex-col items-center z-30 bottom-button focus:outline-none unselectable"
+  [ngClass]="{ ' hover ': hovered }"
+  [style]="'opacity: ' + knowMoreOpacity + ';'"
+  (click)="scrollService.scrollToSection(1)"
+>
+  <div class="text-white text-center" i18n>Know more about me</div>
+  <i class="arrow down"></i>
+</button>
+
+<div class="z-30 absolute text-white" style="right: 20px; top: 20px;">
+  <a
+    *ngFor="let language of languages"
+    class="mr-4"
+    [href]="language === 'en' ? '/' : '/' + language + '/'"
+    [ngClass]="{ ' color-secondary ': selectedLanguage === language }"
+  >
+    {{ language }}
+  </a>
+</div>
+
+<div
+  class="h-screen bg-primary flex flex-col flex-nowrap justify-center items-center unselectable"
+>
+  <div class="text-white text-6xl z-30">{{ hi.display }}</div>
+
+  <ng-container *ngIf="hi.display">
+    <div class="text-white text-center text-4xl z-30 mb-8">
+      {{ im.display }} <span class="color-secondary">{{ name.display }}</span>
+      <br />
+      {{ passionate.display }}
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="!hi.display">
+    <div class="text-white text-center text-4xl z-30 mb-8">
+      {{ welcomeBack.display }}
+    </div>
+  </ng-container>
+  <div
+    class="gradient-background"
+    [style]="'opacity: ' + backgroundOpacity + ';'"
+  ></div>
+</div>
