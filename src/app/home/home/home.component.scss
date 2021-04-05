@@ -1,0 +1,75 @@
+.section {
+  min-height: 100vh;
+  padding-top: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+  }
+}
+
+.card {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  padding: 2rem 1rem;
+  height: 300px;
+  background-color: rgb(66, 37, 86);
+  // box-shadow: 2px 2px 8px rgba(41, 19, 54, 0.6);
+  border-radius: 5px;
+  transition: all 0.5s;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card h2 {
+  color: #ff8325;
+  font-size: 1.4rem;
+}
+.card .cta-button {
+  display: block;
+  border: 1px solid white;
+  color: white;
+  padding: 0.8rem 1.6rem;
+}
+
+.card .back,
+.card .front {
+  transition: all 0.25s;
+  color: white;
+  font-size: 0.875rem;
+  position: absolute;
+  text-align: center;
+}
+.back p {
+  margin-bottom: 0.5rem;
+}
+.card .cta-button {
+  transition: all 0.5s;
+}
+.card .back {
+  opacity: 0;
+}
+.card:hover .cta-button {
+  background-color: #ff8325;
+  border-color: #ff8325;
+}
+.card:hover .back {
+  opacity: 1;
+}
+.card:hover .front {
+  opacity: 0;
+}
+.card:hover {
+  background: rgb(94, 40, 131);
+  box-shadow: 0px 6px 18px rgba(49, 22, 66, 0.6);
+  transform: scale(1.1) perspective(1px) translateZ(0);
+  -webkit-transform: scale(1.1) perspective(1px) translateZ(0);
+  -ms-transform: scale(1.1) perspective(1px) translateZ(0);
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    // margin: 0 1rem;
+  }
+}

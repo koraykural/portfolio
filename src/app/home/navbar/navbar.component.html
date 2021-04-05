@@ -8,7 +8,7 @@
   <button
     class="py-3 bg-secondary md:hidden rounded-l-full flex justify-center items-center focus:outline-none z-40"
     [ngClass]="{ ' pr-2 pl-2 ': navbarOpen, ' pr-1 pl-3 ': !navbarOpen }"
-    style="height: fit-content; transform: translateX(1px);"
+    style="height: fit-content; transform: translateX(1px)"
     (click)="navbarOpen = !navbarOpen"
   >
     <i
@@ -24,7 +24,7 @@
       *ngFor="let link of links"
       class="py-2 px-4 focus:outline-none"
       [ngClass]="{
-        ' text-white ': !link.selected,
+        ' text-white text-sm ': !link.selected,
         ' text-xl color-secondary ': link.selected,
         ' hidden md:block ': !navbarOpen
       }"
@@ -46,7 +46,7 @@
 ></div>
 
 <div
-  class="md:hidden w-screen bg-primary flex justify-center items-center h-8 color-secondary"
+  class="md:hidden w-screen bg-primary flex justify-center items-center h-8 color-secondary z-40"
   [ngClass]="{
     ' fixed top-0 ': scrollService.headerFixed.value,
     ' absolute ': !scrollService.headerFixed.value

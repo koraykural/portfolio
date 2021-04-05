@@ -38,12 +38,12 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="d05c8364f2d6988ff97cea1bb7a81f683e38e2f1" datatype="html">
-        <source>Picture of me</source>
-        <target>una foto mía</target>
+      <trans-unit id="752b85af2328b997271e6a9fa595a8e439a2e6a6" datatype="html">
+        <source>Picture of Koray Kural</source>
+        <target>Koray Kural</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home/home.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
@@ -92,12 +92,12 @@
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e5ecb28f6580ac6212f66646c13c6b297d29c64c" datatype="html">
+      <trans-unit id="a82d78d2b0ab3406888cd5e4a9af533c16807da3" datatype="html">
         <source>Languages</source>
         <target>Idiomas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home/home.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="498095dc81b4ee354d8b83bcec0a1195fa44395b" datatype="html">
@@ -130,6 +130,108 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home/home.component.html</context>
           <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42614b98c50e575ea1b7cabee5527fc7aeb25180" datatype="html">
+        <source>Personal projects</source>
+        <target>Rroyectos personales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d77b9415e24b3d7a6a868b11e3832ecf27d285b" datatype="html">
+        <source>Weekly class schedule creation tool.</source>
+        <target>Herramienta de creación de horarios de clases semanales.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="889fef59c7047e31068b6b87a64affd00232fd9b" datatype="html">
+        <source>Take a deeper look</source>
+        <target>Examinar los detalles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">222</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e8f869bb35886efbb423ecb0eced6a32f21c550" datatype="html">
+        <source>Sorting Algorithms</source>
+        <target>Algoritmos de clasificación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d450e63d88b3753eec79b458244c3dfeb71853bd" datatype="html">
+        <source>Sorting algorithms visualization.</source>
+        <target>Visualización de algoritmos de clasificación.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fd0483a5a6b396b27f3e1cf7e646ea6863c1c16" datatype="html">
+        <source>Client projects</source>
+        <target>Proyectos de clientes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af9e127351fdb5aee249be3d3c021ff9aed5f826" datatype="html">
+        <source>
+          Single page, static, presentation website for a local company.
+        </source>
+        <target>Sitio web de presentación estática de una sola página para una empresa local.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49448183102bb74c031346e8b528e4c3a3a87ce5" datatype="html">
+        <source>E-commerce website.</source>
+        <target>Sitio web de comercio electrónico.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff7b6aedf2eac64c307271996cc9c1a5d7535a0d" datatype="html">
+        <source>
+                A social media where people ask questions, get answers and vote.
+              </source>
+        <target>Una red social donde la gente hace preguntas, obtiene respuestas y vota.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42ffc3f45fdb242787691ba0a7a0de2999bfb471" datatype="html">
+        <source>
+          Frontend update for a rank based movie recommendation website.
+        </source>
+        <target>Actualización de frontend para un sitio web de recomendación de películas basado en ranking.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home/home.component.html</context>
+          <context context-type="linenumber">284</context>
         </context-group>
       </trans-unit>
     </body>

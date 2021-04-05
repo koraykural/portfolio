@@ -22,4 +22,6 @@ i.arrow.right {
   width: 100%;
   margin-bottom: 1.5rem;
   border: solid 3px #ff8325;
+  background-color: #ff8325;
+  box-sizing: border-box;
 }

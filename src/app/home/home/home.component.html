@@ -1,20 +1,18 @@
 <app-navbar></app-navbar>
-<div
-  class="container sm:mx-auto px-4 xl:px-16"
-  style="scroll-snap-type: y mandatory"
->
+<div class="container sm:mx-auto px-4 xl:px-16">
   <div
     id="section-1"
-    class="md:pt-24 pt-16 pb-8 h-screen flex flex-col md:flex-row justify-center items-center box-border"
-    style="scroll-snap-align: start"
+    class="section flex flex-col md:flex-row justify-center items-center"
   >
-    <img
-      class="w-2/3 md:w-1/2 rounded-full my-8 md:p-8 md:m-0"
-      src="/assets/images/profile-picture.jpg"
-      i18n-alt
-      alt="Picture of me"
-    />
-    <div class="my-8 text-gray-900 md:w-1/2 md:px-8 md:m-0">
+    <div class="w-2/3 md:w-1/2 md:p-8 lg:p-12">
+      <img
+        class="rounded-full"
+        src="/assets/images/profile-picture.jpg"
+        i18n-alt
+        alt="Picture of Koray Kural"
+      />
+    </div>
+    <div class="md:w-1/2 py-8 md:py-2 md:px-8">
       <div class="text-4xl" i18n>About</div>
       <hr class="title-line" />
       <p i18n>
@@ -25,21 +23,17 @@
       <p i18n>Currently doing web development.</p>
     </div>
   </div>
-  <div
-    id="section-2"
-    class="md:pt-24 py-8 min-h-screen flex flex-col md:flex-row md:flex-wrap box-border"
-    style="scroll-snap-align: start"
-  >
+  <div id="section-2" class="section flex flex-col md:flex-row md:flex-wrap">
     <div class="mt-8 md:w-1/2 md:px-8">
       <div class="text-4xl">Full stack</div>
       <hr class="title-line" />
       <app-skill-bar [percentage]="85">HTML</app-skill-bar>
-      <app-skill-bar [percentage]="80">CSS</app-skill-bar>
-      <app-skill-bar [percentage]="75">Javascript</app-skill-bar>
+      <app-skill-bar [percentage]="75">CSS</app-skill-bar>
+      <app-skill-bar [percentage]="80">Javascript</app-skill-bar>
       <app-skill-bar [percentage]="65">Angular</app-skill-bar>
       <app-skill-bar [percentage]="75">Node.js</app-skill-bar>
-      <app-skill-bar [percentage]="30">SQL</app-skill-bar>
-      <app-skill-bar [percentage]="40">NoSQL</app-skill-bar>
+      <app-skill-bar [percentage]="45">PostgreSQL</app-skill-bar>
+      <app-skill-bar [percentage]="60">MongoDB</app-skill-bar>
     </div>
     <div class="md:w-1/2 md:px-8">
       <div class="mt-8">
@@ -59,12 +53,254 @@
       </div>
     </div>
   </div>
-  <div
-    id="section-3"
-    class="md:pt-16 h-screen bg-teal-200"
-    style="scroll-snap-align: start"
-  >
-    Some fancy info about me too too
-    <button class="btn">Hey button</button>
+  <div id="section-3" class="section">
+    <div class="text-4xl mt-16" i18n>Personal projects</div>
+    <hr class="title-line" />
+    <div class="flex flex-col md:flex-row justify-around items-start flex-wrap">
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/ituprogram.jpg');
+            background-size: cover;
+          "
+        >
+          <div>
+            <h2>
+              <a href="https://ituprogram.com" target="_blank"
+                >ituprogram.com</a
+              >
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>Weekly class schedule creation tool.</div>
+            </div>
+            <div class="back">
+              <p>Angular</p>
+              <p>Bootstrap</p>
+              <p>Node.js</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://ituprogram.com"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/sorting.jpg');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div>
+            <h2>
+              <a href="https://sorting-algorithms.now.sh/" target="_blank" i18n
+                >Sorting Algorithms</a
+              >
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>Sorting algorithms visualization.</div>
+            </div>
+            <div class="back">
+              <p>Angular</p>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://sorting-algorithms.now.sh/"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/askme.jpg');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div>
+            <h2>
+              <a href="https://askme-project.herokuapp.com/" target="_blank"
+                >AskMe</a
+              >
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>
+                A social media where people ask questions, get answers and vote.
+              </div>
+            </div>
+            <div class="back">
+              <p>Angular</p>
+              <p>TailwindCSS</p>
+              <p>Python - Flask</p>
+              <p>PostgreSQL</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://askme-project.herokuapp.com/"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-4xl mt-16" i18n>Client projects</div>
+    <hr class="title-line" />
+    <div
+      class="flex flex-col md:flex-row justify-around items-start flex-wrap mb-12"
+    >
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/ergin.jpg');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div>
+            <h2>
+              <a href="http://ergintasimacilik.com/" target="_blank"
+                >Ergin Taşımacılık</a
+              >
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>
+                Single page, static, presentation website for a local company.
+              </div>
+            </div>
+            <div class="back">
+              <p>Angular</p>
+              <p>Tailwind CSS</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="http://ergintasimacilik.com/"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/mooses.jpg');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div>
+            <h2>
+              <a href="https://wildmooses.com/" target="_blank">Wild Moose's</a>
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>E-commerce website.</div>
+            </div>
+            <div class="back">
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://wildmooses.com/"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div
+          class="card unselectable"
+          style="
+            background-blend-mode: overlay;
+            background-image: url('/assets/images/rotornot.jpg');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div>
+            <h2>
+              <a href="https://www.rotornot.co/" target="_blank">Rotornot</a>
+            </h2>
+          </div>
+          <div
+            class="relative w-full h-full py-4 flex justify-center items-center"
+          >
+            <div class="front">
+              <div i18n>
+                Frontend update for a rank based movie recommendation website.
+              </div>
+            </div>
+            <div class="back">
+              <p>Jinja Template</p>
+              <p>TailwindCSS</p>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://www.rotornot.co/"
+              target="_blank"
+              class="cta-button"
+              i18n
+              >Take a deeper look</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
